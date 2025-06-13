@@ -556,8 +556,12 @@ a {
   pointer-events: none;
   padding: 2rem;
   gap: 1rem;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out, filter 0.3s ease;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.proyects .proyects-wrapper .content-wrapper .img-wrapper a .custom-overlay:hover {
+  filter: brightness(1.2);
 }
 
 .proyects .proyects-wrapper .content-wrapper .img-wrapper a .custom-overlay.green {
@@ -646,7 +650,7 @@ a {
   width: 100%;
 }
 
-.contact .contact-wrapper .contact-form input{
+.contact .contact-wrapper .contact-form input {
   border: none;
   color: #151515;
   background-color: white;
@@ -655,12 +659,12 @@ a {
   border-radius: 0.5rem;
 }
 
-.contact .contact-wrapper .contact-form input:focus{
+.contact .contact-wrapper .contact-form input:focus {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: 1px solid #151515;
 }
 
-.contact .contact-wrapper .contact-form textarea{
+.contact .contact-wrapper .contact-form textarea {
   min-height: 200px;
   font-family: "Montserrat", sans-serif;
   color: #151515;
@@ -671,12 +675,12 @@ a {
   border-radius: 0.5rem;
 }
 
-.contact .contact-wrapper .contact-form textarea:focus{
+.contact .contact-wrapper .contact-form textarea:focus {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: 1px solid #151515;
 }
 
-.contact .contact-wrapper .contact-form .contact-submit button{
+.contact .contact-wrapper .contact-form .contact-submit button {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-family: "Montserrat", sans-serif;
   color: #848484;
@@ -690,7 +694,7 @@ a {
   transition: all ease 0.3s;
 }
 
-.contact .contact-wrapper .contact-form .contact-submit button:hover{
+.contact .contact-wrapper .contact-form .contact-submit button:hover {
   background-color: #151515;
   color: white;
 }
@@ -715,7 +719,7 @@ a {
   justify-content: center;
 }
 
-.footer .footer-wrapper .title{
+.footer .footer-wrapper .title {
   font-family: 'Amatic SC', sans-serif;
   margin: 0 auto;
   width: auto;
@@ -723,7 +727,7 @@ a {
   transition: all ease 1s;
 }
 
-.footer .footer-wrapper .title:hover{
+.footer .footer-wrapper .title:hover {
   color: #ff004c;
 }
 
@@ -752,24 +756,18 @@ a {
   }
 
   .proyects .proyects-wrapper .content-wrapper .img-wrapper a .custom-overlay {
-    font-size: 2rem !important;
-    font-family: "Montserrat", sans-serif;
-    cursor: pointer;
-    position: absolute;
     inset: 0;
     background-color: #ff004ce8;
     backdrop-filter: blur(9px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #151515;
-    text-align: center;
     opacity: 0;
     pointer-events: none;
     padding: 2rem;
     gap: 2rem;
     transition: opacity 1s ease-in-out;
+  }
+
+  .proyects .proyects-wrapper .content-wrapper .img-wrapper a .custom-overlay p{
+    font-size: 1.5rem !important;
   }
 
   .proyects .proyects-wrapper .content-wrapper .img-wrapper a .custom-overlay .tools svg {
@@ -779,6 +777,10 @@ a {
 
   .proyects .proyects-wrapper .content-wrapper .img-wrapper a .custom-overlay p {
     display: block;
+  }
+
+  .proyects .proyects-wrapper .content-wrapper .img-wrapper a .custom-overlay:hover {
+    filter: none;
   }
 
 }
@@ -873,7 +875,7 @@ a {
     margin: 0 0 4rem 0;
   }
 
-  .proyects .proyects-wrapper .content-wrapper .img-wrapper .custom-overlay {
+  .proyects .proyects-wrapper .content-wrapper .img-wrapper a .custom-overlay {
     font-size: 1.2rem !important;
   }
 
