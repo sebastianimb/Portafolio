@@ -500,7 +500,7 @@ a {
 .proyects .proyects-wrapper {
   opacity: 1;
   position: relative;
-  margin: 2rem 1rem 5rem 1rem;
+  margin: 3rem 1rem 5rem 1rem;
   height: 100%;
   width: 100%;
 }
@@ -625,7 +625,7 @@ a {
 .contact .contact-wrapper {
   opacity: 1;
   position: relative;
-  margin: 2rem 1rem 5rem 1rem;
+  margin: 3rem 1rem 5rem 1rem;
   height: 100%;
   width: 100%;
   display: flex;
