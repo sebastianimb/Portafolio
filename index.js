@@ -15,7 +15,6 @@ document.getElementById("cv-download").addEventListener("click", function () {
 
 // Bloque de seccion de experiencias
 const li = document.querySelectorAll('.li');
-console.log(li);
 
 const content = document.querySelectorAll('.experiences-subcontent .content');
 
