@@ -219,6 +219,7 @@ a {
   scale: 0.9;
   margin: 1rem;
   max-width: 1440px;
+  margin: 3rem 1rem 3rem 1rem;
   animation: fade-in linear forwards;
   animation-timeline: view();
   animation-range: entry 0% cover 30%;
@@ -227,7 +228,7 @@ a {
 .about-wrapper {
   color: #151515;
   background: #ff004c;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .about-wrapper .about-content {
@@ -277,19 +278,16 @@ a {
 }
 
 .about-wrapper .about-content .text-wrapper {
-  padding: 0px 1.5rem 2.5rem 1.5rem;
-  align-self: center;
+  font-weight: 300;
   width: 100%;
 }
 
 .about-wrapper .about-content .text-wrapper p {
-  text-align: center;
-  font-weight: 300;
+  text-align: start;
 }
 
 .about-wrapper .about-content .text-wrapper span {
   color: white;
-  font-weight: 300;
 }
 
 .divider {
@@ -500,7 +498,6 @@ a {
 .proyects .proyects-wrapper {
   opacity: 1;
   position: relative;
-  margin: 3rem 1rem 5rem 1rem;
   height: 100%;
   width: 100%;
 }
@@ -625,7 +622,6 @@ a {
 .contact .contact-wrapper {
   opacity: 1;
   position: relative;
-  margin: 3rem 1rem 5rem 1rem;
   height: 100%;
   width: 100%;
   display: flex;
