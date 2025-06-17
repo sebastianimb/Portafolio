@@ -306,6 +306,7 @@ a {
 }
 
 .experiences {
+  background: linear-gradient(transparent, #ffffffa8);
   position: relative;
   font-size: 2rem;
   display: flex;
